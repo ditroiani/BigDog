@@ -1,0 +1,90 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+/* Pre loader */
+.preloader-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+/* Swipe's (Dashboard, Gerenciar e Agenda) */
+swipe-dashboard {
+	height: 1000px;
+}
+
+/* Informações gerais de dashboard */
+#info-dashboard {
+	display: none;
+}
+
+/* Caixa para informações dos últimos clientes */
+#ultimos-clientes {
+	display: none;
+}
+
+/* Caixa para lista de últimos clientes */
+#lista-ultimos-clientes {
+	height: auto;
+	max-height: 200px !important;
+	overflow-y: scroll;
+}
+
+/* Linha de conteúdo para cliente */
+#tr-ultimo-cliente {
+	font-size: 11px;
+}
+
+/* Caixa para informações das últimas compras */
+#ultimas-compras {
+	display: none;
+}
+
+/* Caixa para lista de últimas compras */
+#lista-ultimas-compras {
+	height: auto;
+	max-height: 200px !important;
+	overflow-y: scroll;
+}
+
+/* Linha de conteúdo para compra */
+#tr-ultima-compra {
+	font-size: 11px;
+}
+
+/* Swipe de gerenciamento */
+#swipe-gerenciar {
+	display: none;
+}
+
+/* Swipe de agenda */
+#swipe-agenda {
+	display: none;
+}
+
+/* Imagem para card de agendamento */
+.img-agendamento-hoje {
+	max-width: 128px !important;
+	margin: auto;
+}
+
+/* Card image de agendamento */
+#card-agendamento-imagem {
+	padding: 8% !important;
+}

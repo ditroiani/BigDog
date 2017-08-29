@@ -1,0 +1,26 @@
+/* Taking font for text in buttons */
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+#btnGoogle {
+	background-color: #de4c34;
+}
+
+#btnLogoGoogle {
+	margin: -3px 25px -10px -40px;
+}
+
+#btnFacebook {
+	background-color: #3b5998;
+}
+
+#btnLogoFacebook {
+	margin: -3px 25px -10px -40px;
+}
+
+#btnFacebook:hover {
+	background-color: #20396d;
+}
+
+#btnGoogle:hover {
+	background-color: #a02f1c;
+}

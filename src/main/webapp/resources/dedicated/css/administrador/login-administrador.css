@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+/* Caixa principal de login */
+#cx-login-adm {
+	padding: 2%;
+}
+
+/* Botão de login */
+#btn-login-adm {
+	margin-top: 18%;
+}

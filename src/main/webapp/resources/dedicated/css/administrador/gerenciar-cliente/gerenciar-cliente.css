@@ -1,0 +1,35 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+/* Descrição de busca de clientes */
+#desc-nav-cliente {
+	font-size: 11px;
+}
+
+/* Lista de clientes */
+#lista-clientes li {
+	display: none;
+	transition: 0.4s;
+}
+
+/* Linhas de lista de clientes */
+#lista-clientes li:hover {
+	transition: 0.4s;
+	color: white;
+	background-color: #42a5f5;
+}
+
+/* Modal que contém informações do cliente */
+#modal-cliente-info {
+	height: 90% !important;
+	max-height: 90% !important;
+}

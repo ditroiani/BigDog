@@ -1,0 +1,29 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+/* Descrição de busca de agendamentos */
+#desc-nav-agendamento {
+	font-size: 11px;
+}
+
+/* Lista de agendamentos */
+#lista-agendamento li {
+	display: none;
+	transition: 0.4s;
+}
+
+/* Linhas de lista de agendamentos */
+#lista-agendamento li:hover {
+	transition: 0.4s;
+	color: white;
+	background-color: #26c6da;
+}

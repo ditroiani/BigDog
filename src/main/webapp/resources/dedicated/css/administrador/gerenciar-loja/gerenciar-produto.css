@@ -1,0 +1,85 @@
+@CHARSET "ISO-8859-1";
+/* Main Produto */
+#main-produto {
+	display: none;
+}
+
+/* Tab Principal Produto */
+#principal-produto {
+	display: none;
+}
+
+/* Descrição de busca de produto */
+#desc-nav-produto {
+	font-size: 11px;
+}
+
+/* Lista de produtos */
+#lista-produto li {
+	display: none;
+	transition: 0.4s;
+}
+
+/* Hover na lista de produtos */
+#lista-produto li:hover {
+	transition: 0.4s;
+	color: white;
+	background-color: #ef5350;
+}
+
+/* Modal para produto */
+#modal-produto {
+	width: 100% !important;
+	height: 90% !important;
+	max-width: 100% !important;
+	max-height: 90% !important;
+}
+
+/* Descrição de busca de categoria */
+#desc-nav-categoria {
+	font-size: 11px;
+}
+
+/* Modal para edição de categoria de produtos cadastrados */
+#modal-editar-categoria-p-selecionado {
+	height: 90% !important;
+	max-height: 100% !important;
+}
+
+/* Modal para edição de fornecedor de produtos cadastrados */
+#modal-editar-fornecedor-p-selecionado {
+	height: 90% !important;
+	max-height: 100% !important;
+}
+
+/* Modal editar categoria */
+#modal-editar-categoria {
+	height: 90% !important;
+	max-height: 100% !important;
+}
+
+/* Lista de categorias */
+#lista-categoria li {
+	display: none;
+}
+
+/* Hover na lista de categorias */
+#lista-categoria li:hover {
+	transition: 0.4s;
+	color: white;
+	background-color: #BEBEBE;
+}
+
+/* Modal para edição da categoria selecionada */
+#modal-categoria {
+	width: 90% !important;
+	max-width: 100% !important;
+}
+
+/* Modal para editar produto selecionado */
+#modal-editar-produto {
+	width: 100% !important;
+	height: 90% !important;
+	max-width: 100% !important;
+	max-height: 90% !important;
+}
